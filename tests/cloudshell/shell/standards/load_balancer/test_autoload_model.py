@@ -3,11 +3,15 @@ import unittest
 from cloudshell.shell.standards.autoload_generic_models import (
     GenericChassis,
     GenericModule,
+    GenericPort,
     GenericPortChannel,
     GenericPowerPort,
-    GenericSubModule, GenericPort,
+    GenericSubModule,
 )
-from cloudshell.shell.standards.load_balancer.autoload_model import LoadBalancerResourceModel
+
+from cloudshell.shell.standards.load_balancer.autoload_model import (
+    LoadBalancerResourceModel,
+)
 
 
 class TestGenericResourceModel(unittest.TestCase):
