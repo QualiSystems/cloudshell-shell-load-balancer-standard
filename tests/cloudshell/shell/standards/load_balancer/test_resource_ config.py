@@ -26,7 +26,10 @@ from cloudshell.shell.standards.attribute_names import (
     SNMP_WRITE_COMMUNITY,
     VRF_MANAGEMENT_NAME,
 )
-from cloudshell.shell.standards.load_balancer.resource_config import LoadBalancerResourceConfig
+
+from cloudshell.shell.standards.load_balancer.resource_config import (
+    LoadBalancerResourceConfig,
+)
 
 if sys.version_info >= (3, 0):
     from unittest.mock import MagicMock

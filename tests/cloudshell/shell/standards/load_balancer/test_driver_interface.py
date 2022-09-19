@@ -2,7 +2,9 @@ import sys
 import unittest
 from functools import partial
 
-from cloudshell.shell.standards.load_balancer.driver_interface import LoadBalancerResourceDriverInterface
+from cloudshell.shell.standards.load_balancer.driver_interface import (
+    LoadBalancerResourceDriverInterface,
+)
 
 if sys.version_info >= (3, 0):
     from unittest.mock import MagicMock
