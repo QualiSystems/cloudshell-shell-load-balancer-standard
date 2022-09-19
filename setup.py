@@ -24,6 +24,8 @@ setup(
     ),
     version=version_from_file,
     package_data={"": ["*.txt"]},
-    description="QualiSystems Shells Load Balancer Standard Package",
+    description="Load Balancer Standard",
+    long_description="QualiSystems Shells Load Balancer Standard Package",
+    long_description_content_type="text/x-rst",
     include_package_data=True,
 )
